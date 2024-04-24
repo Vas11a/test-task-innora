@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-task-innora/static/css/main.c41b18ed.css",
+    "main.js": "/test-task-innora/static/js/main.cfa75849.js",
+    "index.html": "/test-task-innora/index.html",
+    "main.c41b18ed.css.map": "/test-task-innora/static/css/main.c41b18ed.css.map",
+    "main.cfa75849.js.map": "/test-task-innora/static/js/main.cfa75849.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c41b18ed.css",
+    "static/js/main.cfa75849.js"
+  ]
+}
