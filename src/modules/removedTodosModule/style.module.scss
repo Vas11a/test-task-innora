@@ -1,0 +1,50 @@
+.head{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.go_back{
+    font-size: 28px;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.todo_help_class{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.button {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.return{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+.no_notes {
+    font-size: 18px;
+}
+

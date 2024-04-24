@@ -1,0 +1,177 @@
+
+.head{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deleted_todos{
+    font-size: 28px;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.gh_block {
+    width: 70px;
+    height: 70px;
+
+    img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+}
+
+
+.main_block {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.left_part {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.w_note {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+textarea {
+    width: 90%;
+    resize: none;
+    height: 140px;
+    padding: 12px;
+    outline: 3px solid gray;
+    font-size: 30px;
+    border-radius: 20px;
+
+    &:focus {
+        bottom: none;
+        outline: 3px solid gray;
+    }
+}
+
+.button {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.none{
+    display: none;
+}
+
+
+.button_theme {
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid grey;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-left: 1px;
+}
+
+.right_part {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.note_title {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.no_notes {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1530px) {
+    .right_part {
+        flex: 2;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .main_block {
+        flex-direction: column;
+    }
+
+    .left_part {
+        flex: 1;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .right_part {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .title {
+        font-size: 60px;
+    }
+
+
+    .right_part {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .title {
+        font-size: 50px;
+    }
+
+    .note_title {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .right_part {
+        padding-top: 25px;
+    }
+}
